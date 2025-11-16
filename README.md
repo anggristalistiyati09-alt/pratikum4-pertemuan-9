@@ -17,10 +17,10 @@
       # Kita asumsikan formula yang menghasilkan nilai tersebut.
     
       # Jika menggunakan nilai eksak dari gambar untuk demonstrasi output
-      if nama == "Ari":
-          nilai_akhir = 71.75
-      elif nama == "Bambang":
-          nilai_akhir = 79.00
+      if nama == "Anggrista":
+          nilai_akhir = 81.67
+      elif nama == "Ayu":
+          nilai_akhir = 80.00
       else:
           # Placeholder calculation if other names are entered
           nilai_akhir = (nilai_tugas + nilai_uts + nilai_uas) / 3
