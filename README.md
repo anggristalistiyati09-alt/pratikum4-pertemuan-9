@@ -80,3 +80,7 @@ for i, data in enumerate(data_mahasiswa, 1):
 
 <img width="339" height="229" alt="image" src="https://github.com/user-attachments/assets/303ce2d1-5e26-446f-8fa3-3103623e445a" />
 
+# Tampilan flowchart
+<img width="229" height="265" alt="image" src="https://github.com/user-attachments/assets/e433a37a-5015-4098-bcd3-d23343356768" />
+
+
