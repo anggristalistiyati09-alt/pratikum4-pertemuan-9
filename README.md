@@ -1,8 +1,8 @@
 # pratikum4-pertemuan-9
 
-  data_mahasiswa = []
+    data_mahasiswa = []
 
-  while True:
+    while True:
   
       nama = input("Nama: ")
       
@@ -16,7 +16,7 @@
     
       # Perhitungan nilai akhir (menggunakan bobot tertentu untuk mencocokkan output gambar)
       # Formula yang digunakan untuk mencocokkan nilai pada gambar adalah (Tugas*0.2 + UTS*0.3 + UAS*0.5)
-      # Ini menghasilkan nilai yang mendekati nilai pada gambar, namun nilai pada gambar (71.75 dan 79.00) 
+      # Ini menghasilkan nilai yang mendekati nilai pada gambar, namun nilai pada gambar (81.67 dan 80.00) 
       # mungkin berasal dari formula bobot yang sangat spesifik atau pembulatan tertentu.
       # Untuk mencocokkan persis, nilai akhir bisa dihitung secara terpisah atau menggunakan formula yang tepat.
       # Kita asumsikan formula yang menghasilkan nilai tersebut.
