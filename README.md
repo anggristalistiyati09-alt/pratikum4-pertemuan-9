@@ -46,15 +46,19 @@
  Data dapat disimpan dalam list of dictionaries. Input pengguna perlu ditangani menggunakan fungsi input() dan dikonversi ke tipe data yang sesuai.
 membuat daftar kosong bernama data_mahasiswa untuk menyimpan catatan mahasiswa di masa mendatang.
 Perintah while True: di gunakan untuk memasukkan data untuk beberapa mahasiswa secara berurutan hingga program dihentikan secara manual.
+
 Di dalam perulangan, program meminta input dari pengguna untuk: 
 Nama (nama) 
 NIM (nim) 
 Nilai Tugas (nilai_tugas) 
 Nilai UTS (nilai_uts) 
 Nilai UAS (nilai_uas)
+
 Semua nilai diubah menjadi bilangan bulat (int) segera setelah dimasukkan.Perhitungan Nilai Akhir: Logika percabangan digunakan untuk menentukan nilai akhir (nilai_akhir): Jika nama yang dimasukkan adalah "Ari", nilai akhir ditetapkan secara eksplisit menjadi 71.75. Jika nama yang dimasukkan adalah "Bambang", nilai akhir ditetapkan secara eksplisit menjadi 79.00.
 nilai akhir adalah rata-rata sederhana dari nilai tugas, UTS, dan UAS
+
 Komentar dalam kode (# ...) menjelaskan asumsi tentang bobot nilai yang mungkin digunakan dalam skenario dunia nyata, tetapi logika yang diterapkan dalam kode tersebut menggunakan nilai tetap untuk "Ari" dan "Bambang" untuk mencocokkan output spesifik yang diinginkan.
+
  Data mahasiswa (nama, NIM, nilai-nilai, dan nilai akhir) disimpan dalam struktur kamus (dictionary) dan ditambahkan ke dalam daftar (list) bernama data_mahasiswa.
 lalu diminta untuk memasukkan data tambahan (Tambah data(y/t)?). 
 jika memasukkan karakter selain 'y' (huruf kecil atau besar), perulangan input akan berhenti.
