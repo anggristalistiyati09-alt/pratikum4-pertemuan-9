@@ -3,10 +3,15 @@
   data_mahasiswa = []
 
   while True:
+  
       nama = input("Nama: ")
+      
       nim = input("NIM : ")
+      
       nilai_tugas = int(input("Nilai Tugas : "))
+      
       nilai_uts = int(input("Nilai UTS : "))
+      
       nilai_uas = int(input("Nilai UAS : "))
     
       # Perhitungan nilai akhir (menggunakan bobot tertentu untuk mencocokkan output gambar)
