@@ -43,8 +43,11 @@
       if tambah_data.lower() != 'y':
           break
 
-  # Mencetak tabel
-  print("| No | Nama     | NIM    | Tugas | UTS | UAS | Akhir |")
+  `# Mencetak tabel
+      print("| No | Nama     | NIM    | Tugas | UTS | UAS | Akhir |")
+        print("|----|----------|--------|-------|-----|-----|-------|")
+    for i, data in enumerate(data_mahasiswa, 1):
+        print(f"| {i:<2} | {data['nama']:<8} | {data['nim']:<6} | {data['tugas']:<5} | {data['uts']:<3} | {data['uas']:<3} | {data['akhir']:<5.2f} |")
 
   penjelasan :
   
@@ -76,3 +79,4 @@ for i, data in enumerate(data_mahasiswa, 1):
 # Tampilan Hasil
 
 <img width="339" height="229" alt="image" src="https://github.com/user-attachments/assets/303ce2d1-5e26-446f-8fa3-3103623e445a" />
+
